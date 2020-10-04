@@ -76,7 +76,6 @@ p {
 .content-section {
     width: 75%;
     margin-left: 20px;
-    overflow: auto;
     display: inline-block;
 }
 
@@ -90,8 +89,7 @@ p {
 
 .content img {
     max-height: 200px;
-    float: left;
-    margin: 25px;
+    margin: 50px 25px;
 }
 
 .content-info h2 {
@@ -99,7 +97,9 @@ p {
     font-size: 36px;
 }
 
-
+.float-left {
+    float: left;
+}
 .float-right {
     float: right;
 }
